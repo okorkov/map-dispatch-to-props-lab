@@ -6,7 +6,7 @@ export class App extends Component {
   render() {
     return (
       <div className="App">
-        <RestaurantInput />
+        <RestaurantInput dispatch={this.props.dispatch}/>
         <Restaurants />
       </div>
     );
